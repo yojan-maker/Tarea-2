@@ -13,21 +13,21 @@ El objetivo es proporcionar un panorama completo de estas tecnologías que está
 - Historia de la computación cuántica, ventajas y desventajas
 - Conceptos como superposición, entrelazamiento, compuertas cuánticas, etc...
 
-3. [Segundo Punto: Computación Neuromórfica](#segundo-punto-computación-neuromórfica)  
+2. [Segundo Punto: Computación Neuromórfica](#segundo-punto-computación-neuromórfica)  
 - Definición computador neuromórfico
 - Arquitectura, funcionamiento, ventajas y desventajas
 - Hardware utilizado en la computación neuromórfica
 - Tipos de computación neuromórfica
 
-4. [Tercer Punto: Ordenadores Biológicos](#tercer-punto-ordenadores-biológicos)  
+3. [Tercer Punto: Ordenadores Biológicos](#tercer-punto-ordenadores-biológicos)  
 - Definición de ordenadores biológicos
 - Arquitectura, tipos y principales hitos
 
-5. [Cuarto Punto: Arquitectura de Computación Heterogénea](#cuarto-punto-Arquitectura-de-computación-heterogénea)
+4. [Cuarto Punto: Arquitectura de Computación Heterogénea](#cuarto-punto-Arquitectura-de-computación-heterogénea)
 - Definición de arquitectura de computación heterogénea
 - Historia, ventajas y desventajas
 
-6. [Quinto Punto: Arquitectura de Computación de Borde](#cuarto-punto-Arquitectura-de-computación-heterogénea)
+5. [Quinto Punto: Arquitectura de Computación de Borde](#cuarto-punto-Arquitectura-de-computación-heterogénea)
 - Definición de arquitectura de computación de borde
 - Historia, ventajas y desventajas
 
@@ -53,11 +53,11 @@ Con apenas ~30 qubits se alcanza un espacio de estados comparable a un supercomp
 
 ---
 
-### 1.2) 🏗️ **ARQUITECTURA**
+# 1.2) 🏗️ **ARQUITECTURA**
 La arquitectura de una computadora cuántica no se limita a procesar información: es un sistema altamente especializado que protege los estados cuánticos frágiles contra la decoherencia y traduce las 
 instrucciones clásicas en operaciones físicas a nivel cuántico.
 
-### **1. El Stack Arquitectónico Híbrido**
+## **1. El Stack Arquitectónico Híbrido**
 
 - **Las computadoras cuánticas son sistemas híbridos:** combinan componentes clásicos y cuánticos en un stack de múltiples capas.
 
@@ -69,17 +69,17 @@ instrucciones clásicas en operaciones físicas a nivel cuántico.
 
 📌 Este flujo traduce el lenguaje digital clásico en señales físicas y, tras la medición, lo devuelve al dominio clásico. La fidelidad de esta traducción determina el rendimiento del sistema.
 
-### **La Materialización del Cúbit: Plataformas Físicas en Competencia**
+## **2. La Materialización del Cúbit: Arquitectura física**
 
 No existe una única forma de construir un cúbit. Varias tecnologías físicas compiten para convertirse en la plataforma dominante, cada una con un conjunto único de ventajas y desafíos en términos de velocidad, estabilidad y escalabilidad.
 
-- ***Cúbits Superconductores:*** Actualmente, es la tecnología líder, utilizada por empresas como IBM y Google. Se basan en circuitos eléctricos fabricados con materiales superconductores como el aluminio, enfriados a temperaturas extremadamente bajas. Utilizan un componente no lineal llamado unión Josephson para crear niveles de energía discretos y desiguales, comportándose como un "átomo artificial" cuyos dos niveles más bajos pueden usarse como los estados ∣0⟩ y ∣1⟩ de un cúbit. El tipo más común se conoce como "transmon".
+- **Cúbits Superconductores:** Actualmente, es la tecnología líder, utilizada por empresas como IBM y Google. Se basan en circuitos eléctricos fabricados con materiales superconductores como el aluminio, enfriados a temperaturas extremadamente bajas. Utilizan un componente no lineal llamado unión Josephson para crear niveles de energía discretos y desiguales, comportándose como un "átomo artificial" cuyos dos niveles más bajos pueden usarse como los estados ∣0⟩ y ∣1⟩ de un cúbit. El tipo más común se conoce como "transmon".
 
-- ***Iones Atrapados:*** Este enfoque utiliza átomos individuales que han sido ionizados (se les ha quitado un electrón) y son confinados en el vacío mediante campos electromagnéticos generados por un chip. Los estados del cúbit se codifican en los niveles de energía electrónicos hiperfinos del ion, que son extremadamente estables. Empresas como IonQ y Quantinuum lideran esta tecnología.
+- **Iones Atrapados:** Este enfoque utiliza átomos individuales que han sido ionizados (se les ha quitado un electrón) y son confinados en el vacío mediante campos electromagnéticos generados por un chip. Los estados del cúbit se codifican en los niveles de energía electrónicos hiperfinos del ion, que son extremadamente estables. Empresas como IonQ y Quantinuum lideran esta tecnología.
 
-- ***Cúbits Fotónicos:*** Utilizan partículas de luz, fotones, como cúbits. La información cuántica se puede codificar en propiedades como la polarización (horizontal/vertical) o la ruta que sigue el fotón. Su principal ventaja es que son muy resistentes a la decoherencia y pueden operar a temperatura ambiente, lo que simplifica enormemente la infraestructura.
+- **Cúbits Fotónicos:** Utilizan partículas de luz, fotones, como cúbits. La información cuántica se puede codificar en propiedades como la polarización (horizontal/vertical) o la ruta que sigue el fotón. Su principal ventaja es que son muy resistentes a la decoherencia y pueden operar a temperatura ambiente, lo que simplifica enormemente la infraestructura.
 
-- ***Átomos Neutros:*** Una tecnología emergente y prometedora que utiliza átomos sin carga eléctrica, atrapados individualmente en el espacio mediante "pinzas ópticas", que son rayos láser muy enfocados. Los estados del cúbit se definen por los estados electrónicos del átomo.
+- **Átomos Neutros:** Una tecnología emergente y prometedora que utiliza átomos sin carga eléctrica, atrapados individualmente en el espacio mediante "pinzas ópticas", que son rayos láser muy enfocados. Los estados del cúbit se definen por los estados electrónicos del átomo.
 
 A continuación, se presenta una tabla comparativa que resume las características clave de las principales plataformas de cúbits.
 
@@ -93,3 +93,55 @@ A continuación, se presenta una tabla comparativa que resume las característic
 | **Conectividad**         | Local                           | Todos con todos               | Difícil                | Reconfigurable            |
 | **Desafíos**             | Ruido, criogenia                | Escalabilidad                 | Interacción de fotones | Carga/detección           |
 
+## **Control y Medición: La Orquestación de los Estados Cuánticos**
+
+Manipular un cúbit equivale a realizar una operación lógica, lo que se logra aplicando pulsos de energía cuidadosamente calibrados para guiar la evolución de su estado cuántico.
+
+〰️ Para los cúbits superconductores, esto se hace mediante pulsos de microondas. Se envían señales de microondas a una frecuencia de resonancia específica del cúbit 
+(generalmente en el rango de 5-10 GHz) a través de cables coaxiales que llegan hasta el chip. La duración, forma y fase de estos pulsos determinan con precisión la rotación del estado del cúbit en la Esfera de Bloch.
+
+💥 Para los iones atrapados y átomos neutros, se utilizan láseres de alta precisión. Un conjunto de láseres se enfoca en los átomos individuales para enfriarlos, mantenerlos en su lugar y, lo más importante, inducir transiciones entre sus niveles de energía internos para ejecutar las operaciones cuánticas.
+
+📏 El paso final de cualquier algoritmo cuántico es la medición, que extrae la respuesta del cálculo. Este proceso es fundamentalmente probabilístico y destructivo: fuerza al cúbit a "elegir" uno de los estados base, ∣0⟩ o ∣1⟩, colapsando la superposición. Para los cúbits superconductores, una técnica común es acoplar el cúbit a un circuito resonador. El estado del cúbit (sea ∣0⟩ o ∣1⟩) altera ligeramente la frecuencia de resonancia del circuito. 
+Al enviar una señal de microondas de "lectura" y medir la fase de la señal transmitida, se puede inferir el estado del cúbit con alta probabilidad.
+
+### El entorno operativo es un reto enorme:
+
+Los superconductores requieren temperaturas más bajas que el espacio interestelar, alcanzadas con criostatos de dilución.
+
+Los sistemas ópticos y de iones necesitan aislamiento de vibraciones, ruido electromagnético y partículas externas.
+
+La complejidad de esta infraestructura es uno de los principales obstáculos para la masificación de las computadoras cuánticas.
+
+👉👉👉 Imagen 3: Sistema de criogenia y control cuántico
+
+## 🧠 La Arquitectura Lógica: El Lenguaje de la Computación Cuántica
+
+Mientras que la arquitectura física se ocupa del hardware, la arquitectura lógica define el conjunto de operaciones y la estructura abstracta utilizada para programar una computadora cuántica. 
+Este es el dominio de las puertas, los circuitos y los algoritmos, el lenguaje con el que se instruye a los cúbits para que realicen cálculos.
+Sobre los cúbits físicos se construye la **capa lógica**, que define cómo se programan los algoritmos.
+
+- **Puertas cuánticas:** operaciones unitarias reversibles como X, Y, Z, Hadamard (H) y CNOT.  
+- **Circuitos cuánticos:** secuencias organizadas de puertas para ejecutar algoritmos.  
+- **Algoritmos representativos:**  
+  - **Shor (1994):** factorización de enteros, amenaza a RSA.  
+  - **Grover (1996):** búsqueda en bases de datos no estructuradas, con aceleración cuadrática.  
+  - **QFT (Quantum Fourier Transform):** pieza clave en varios algoritmos.  
+
+👉👉👉 *Imagen 5: Ejemplo de circuito cuántico con puertas H y CNOT*  
+
+## 5. Corrección de errores y cúbits lógicos
+
+Los cúbits son inestables y altamente sensibles al entorno. Para mantener la confiabilidad se usan **códigos de corrección de errores cuánticos (QEC):**
+
+- **Tipos de errores comunes:**  
+  - *Bit-flip* (0 ↔ 1).  
+  - *Phase-flip* (∣+⟩ ↔ ∣−⟩).  
+  - Errores continuos generados por ruido ambiental.  
+
+- **Redundancia:** un cúbit lógico requiere decenas o cientos de cúbits físicos.  
+- **Ejemplos:**  
+  - **Código de Shor (1995):** protege un cúbit lógico usando 9 cúbits físicos.  
+  - **Código de superficie (Surface Code):** más usado hoy por su escalabilidad en superconductores.  
+
+👉👉👉 *Imagen 6: Corrección de errores cuánticos mediante cúbits ancilla*  
