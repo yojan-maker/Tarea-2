@@ -33,12 +33,14 @@ El objetivo es proporcionar un panorama completo de estas tecnologías que está
 
 ---
 ## 1) Computación cuántica
-###  ¿Qué es?
+### 1.1) **¿Qué es?**
 La computación cuántica es un tipo de informática que utiliza principios de la mecánica cuántica para resolver problemas muy complejos que las computadoras clásicas no pueden resolver.
+Este tipo de computación es un paradigma que se diferencia de la computacion clasica ya que se basa en uso de quibit en vez de bits, gracias a esto se dan nuevos estados los
+cuales pasan de ser dos a ser cuatro, esto abre infinidad de posibilidades en la resolucion de problemas altamente complejos, así como la creación de nuevos algoritmos porque
+se crean nuevas compuertas lógicas que permiten analizar problemas con diferentes complejidades creando grandes expectativas frente a este paradigma.
 
-Este tipo de computación usa qubits (sistemas físicos de dos niveles) que pueden estar en superposición y procesar muchas entradas “a la vez”, lo que habilita ventajas exponenciales
-frente a ciertos problemas clásicos. 
 Con apenas ~30 qubits se alcanza un espacio de estados comparable a un supercomputador de 10 teraflops, aunque obtener la respuesta correcta exige diseñar algoritmos que controlen la probabilidad de medida. 
+
 
 📌 Principios físicos clave
 
@@ -47,3 +49,5 @@ Con apenas ~30 qubits se alcanza un espacio de estados comparable a un supercomp
 - **Interferencia cuántica:** las amplitudes pueden sumarse o anularse; muchos procedimientos “hacen desaparecer” los términos no deseados por interferencia destructiva y amplifican el deseado 
 - **Medición probabilística:** medir colapsa la superposición y entrega un único resultado; por eso los algoritmos transforman el estado para que la respuesta correcta tenga alta probabilidad 
 - **Decoherencia:** el acoplamiento con el entorno destruye la coherencia y la información; es el gran reto práctico de la tecnología.
+
+### 1.2) **Arquitectura**
