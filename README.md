@@ -32,3 +32,18 @@ El objetivo es proporcionar un panorama completo de estas tecnologías que está
 - Historia, ventajas y desventajas
 
 ---
+## 1) Computación cuántica
+###  ¿Qué es?
+La computación cuántica es un tipo de informática que utiliza principios de la mecánica cuántica para resolver problemas muy complejos que las computadoras clásicas no pueden resolver.
+
+Este tipo de computación usa qubits (sistemas físicos de dos niveles) que pueden estar en superposición y procesar muchas entradas “a la vez”, lo que habilita ventajas exponenciales
+frente a ciertos problemas clásicos. 
+Con apenas ~30 qubits se alcanza un espacio de estados comparable a un supercomputador de 10 teraflops, aunque obtener la respuesta correcta exige diseñar algoritmos que controlen la probabilidad de medida. 
+
+📌 Principios físicos clave
+
+- **Superposición:** un qubit puede estar en combinación lineal de |0⟩ y |1⟩; los algoritmos explotan ese paralelismo para evaluar funciones “en todos los puntos simultáneamente” antes de medir. 
+- **Entrelazamiento:** correlaciones no clásicas entre qubits  
+- **Interferencia cuántica:** las amplitudes pueden sumarse o anularse; muchos procedimientos “hacen desaparecer” los términos no deseados por interferencia destructiva y amplifican el deseado 
+- **Medición probabilística:** medir colapsa la superposición y entrega un único resultado; por eso los algoritmos transforman el estado para que la respuesta correcta tenga alta probabilidad 
+- **Decoherencia:** el acoplamiento con el entorno destruye la coherencia y la información; es el gran reto práctico de la tecnología.
