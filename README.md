@@ -537,6 +537,13 @@ Su objetivo es **maximizar el rendimiento y la eficiencia energética**, superan
 - **Industria del entretenimiento**: renderizado gráfico y efectos visuales.  
 - **Supercomputación (HPC)**: sistemas híbridos CPU–GPU–FPGA que lideran el ranking TOP500.  
 
+## Futuro de la computación heterogénea  
+
+- **Procesadores especializados** para IA, gráficos y computación científica.  
+- **Integración con la computación cuántica** (CPU–GPU–QPU en un mismo ecosistema).  
+- **Optimización para Edge y dispositivos móviles**: chips híbridos más pequeños y energéticamente eficientes.  
+- **Unificación de software** (APIs y frameworks) para simplificar el desarrollo en sistemas híbridos.  
+- **Arquitecturas neuromórficas** que integren aceleradores inspirados en el cerebro humano.  
 
 ---
 ---
@@ -599,6 +606,15 @@ el **consumo de ancho de banda** y mejora la **privacidad**. Es una arquitectura
 - **Realidad aumentada/virtual (AR/VR)**: experiencias inmersivas con baja latencia gracias al 5G.  
 
 <img src="https://github.com/user-attachments/assets/981b9356-9b81-4a96-801e-b96f163ae0a2" width="550"> 
+
+## Futuro del Edge Computing  
+
+- **Integración con IA distribuida**: modelos que se ejecutan directamente en el borde.  
+- **Sinergia con 6G y redes satelitales**: cobertura más amplia y baja latencia global.  
+- **Edge + Cloud híbrido**: equilibrio dinámico entre procesamiento local y en la nube.  
+- **Ciberseguridad avanzada** en entornos descentralizados.  
+- **Computación de borde cuántica** *(investigación emergente)*: uso de QPUs distribuidas para resolver problemas críticos en tiempo real.  
+- **Mayor autosuficiencia**: nodos de borde capaces de operar de forma autónoma por largos períodos.
 
 
 ---
