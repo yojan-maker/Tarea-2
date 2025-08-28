@@ -618,7 +618,7 @@ el **consumo de ancho de banda** y mejora la **privacidad**. Es una arquitectura
 
 ---
 
-# 📌 Conclusión General  
+# 📌 Conclusión  
 
 La exploración de estas arquitecturas emergentes muestra que la computación está viviendo una **transformación profunda y multidimensional**. Cada paradigma aborda limitaciones distintas de la computación clásica y ofrece soluciones específicas para los desafíos del presente y del futuro:  
 
@@ -632,3 +632,68 @@ En conjunto, estas arquitecturas no son **competencia directa**, sino **compleme
 
  En conclusión, la computación emergente no solo redefine la tecnología, sino que también impulsa un **nuevo paradigma científico, industrial y social**, capaz de transformar radicalmente la manera en que interactuamos con la información en el siglo XXI.  
 
+
+---
+
+
+# 📚 Referencias Bibliográficas  
+
+## Computación Cuántica  
+- Bonillo, V. M. (2013). *Principios fundamentales de computación cuántica*. Universidad de la Coruña.  
+- Ariza, H. F., Aguilar, N. H., & Mogollón, K. V. (2017). *Ordenador cuántico: arquitectura e información*. Ingeniería de Sistemas, Universidad Industrial de Santander. Disponible en: http://wiki.sc3.uis.edu.co/images/5/54/ArtiG3.pdf  
+- Instituto Politécnico Nacional. (s.f.). *Arquitecturas computacionales cuánticas*. Disponible en: https://www.repositoriodigital.ipn.mx/bitstream/123456789/8510/1/ARQUITECTURAS%20COMPUTACIONALES%20CUANTICAS.pdf  
+- Cuaderno Activa (2019). *Computación cuántica: historia y evolución*. Disponible en: https://ojs.tdea.edu.co/index.php/cuadernoactiva/article/view/330/1070  
+- Computación Cuántica (s.f.). *Historia y evolución*. Disponible en: https://xn--computacincuantica-y1b.com/computacion-cuantica-historia-y-evolucion/  
+- The Knowledge Academy. (2023). *Advantages and disadvantages of quantum computing*. Disponible en: https://www.theknowledgeacademy.com/blog/advantages-and-disadvantages-of-quantum-computing/  
+- Amazon Web Services (AWS). (s.f.). *¿Qué es la computación cuántica?*. Disponible en: https://aws.amazon.com/es/what-is/quantum-computing/  
+- Repsol. (s.f.). *Computación cuántica: la energía del futuro*. Disponible en: https://www.repsol.com/es/energia-avanzar/innovacion/computacion-cuantica/index.cshtml  
+- Coinmetro. (s.f.). *Quantum bit (Qubit)*. Disponible en: https://coinmetro.com/es-es/glossary/quantum-bit-qubit  
+- Docirs. (s.f.). *Puertas y circuitos cuánticos*. Disponible en: https://docirs.cl/Puertas_Circuitos_Cuanticos.asp  
+- IBM. (s.f.). *Quantum computing*. Disponible en: https://www.ibm.com/es-es/topics/quantum-computing  
+
+## Computación Neuromórfica  
+- IBM. (s.f.). *Computación neuromórfica*. Disponible en: https://www.ibm.com/mx-es/think/topics/neuromorphic-computing  
+- EscoEUniversitas. (2023). *Computación neuromórfica: imitando al cerebro*. Disponible en: https://escoeuniversitas.com/computacion-neuromorfica-imitando-al-cerebro/  
+- Geekflare. (2022). *Neuromorphic computing explained*. Disponible en: https://geekflare.com/es/neuromorphic-computing-explained/  
+- SEDIC. (2023). *Computación neuromórfica: una IA más eficiente y sostenible*. Disponible en: https://www.sedic.es/computacion-neuromorfica-una-ia-mas-eficiente-y-sostenible/  
+
+## Computación Biológica  
+- Wired. (2023). *La primera computadora biológica con neuronas humanas es una realidad: CL1*. Disponible en: https://es.wired.com/articulos/la-primera-computadora-biologica-que-funciona-con-neuronas-humanas-ya-es-una-realidad-y-se-llama-cl1  
+- Xataka. (2022). *Computación biológica: cómo nos ayuda a resolver grandes retos*. Disponible en: https://www.xataka.com/investigacion/computacion-biologica-que-como-nos-esta-ayudando-a-resolver-algunos-grandes-retos-a-que-se-enfrenta-humanidad  
+- Blog Think Big. (2023). *Ordenador biológico CL1*. Disponible en: https://blogthinkbig.com/ordenador-biologico-cl1  
+- Marr, B. (2021). *What is biological computing and how it will change our world*. Disponible en: https://bernardmarr.com/what-is-biological-computing-and-how-it-will-change-our-world/  
+
+## Computación Heterogénea  
+- Universidad Industrial de Santander. (s.f.). *Computación heterogénea*. Disponible en: http://wiki.sc3.uis.edu.co/images/2/25/ArtiG8.pdf  
+- Rodríguez, J. (2013). *Computación heterogénea: potencia CPU/GPU*. ResearchGate. Disponible en: https://www.researchgate.net/publication/259295149_Computacion_Heterogenea_Potencia_GPUCPU_Heterogeneous_Computing_GPUCPU_Power  
+- RocketMeUpIO. (2022). *Heterogeneous computing architectures: a deep dive into the future of computing*. Medium. Disponible en: https://medium.com/@RocketMeUpIO/heterogeneous-computing-architectures-a-deep-dive-into-the-future-of-computing-9cefb8b7c1a1  
+
+## Computación de Borde  
+- FyC Corp. (2022). *Edge computing: el borde del futuro*. Disponible en: https://fyccorp.com/edge-computing-el-borde-del-futuro/  
+- Akamai. (s.f.). *¿Qué es edge computing?*. Disponible en: https://www.akamai.com/es/glossary/what-is-edge-computing  
+- Vision Platform AI. (2023). *Computación en el borde: todo lo que necesitas saber*. Disponible en: https://visionplatform.ai/es/computacion-en-el-borde-todo-lo-que-necesitas-saber-y-el-auge-de-la-inteligencia-artificial/  
+
+
+
+
+---
+
+
+
+# 🖼️ Referencias de Imágenes  
+
+- ResearchGate. (2016). *Classical bit vs qubit*. Disponible en: https://www.researchgate.net/figure/Figure-1-Classical-Bit-Vs-Qubit_fig2_308414229  
+- Data Center Dynamics. (2021). *Refrigeración criogénica de chips*. Disponible en: https://www.datacenterdynamics.com/es/features/como-la-refrigeracion-criogenica-de-chips-podria-mejorar-la-eficiencia-de-los-centros-de-datos/  
+- ResearchGate. (2020). *Circuito cuántico sencillo*. Disponible en: https://www.researchgate.net/figure/Circuito-cuantico-sencillo-Se-usan-las-puertas-Hadamard-X-CNOT-Toffoli-y-de-medicion_fig3_350008032  
+- Divulgando Ciencia. (s.f.). *Algoritmo de Shor*. Disponible en: https://divulgando-ciencia.blog/algoritmo-de-shor-o-como-las-computadoras-cuanticas-pueden-romper-la-base-de-la-criptografia-actual/  
+- ResearchGate. (2020). *Surface code con 7 qubits*. Disponible en: https://www.researchgate.net/figure/Surface-code-implemented-with-seven-qubits-a-The-surface-code-consists-of-a_fig2_342018824  
+- Slidemake. (s.f.). *Compuertas cuánticas comunes*. Disponible en: https://www.slidemake.com/presentation/Quantum-Gates:-Single-Qubit-Gates:-Quantum-Not-Gate,-Pauli-%E2%80%93-X,-Y-and-Z-Gates,-Hadamard-Gate,-Phase-64d86e639f122c15100fbe31  
+- ResearchGate. (2020). *Spiking neural networks*. Disponible en: https://www.researchgate.net/figure/The-architecture-of-a-spiking-neural-network-SNN-The-network-consists-of-an-input_fig1_342529143  
+- Frontiers in Neuroscience. (2019). *SDTP model*. Disponible en: https://www.frontiersin.org/journals/neuroscience/articles/10.3389/fnins.2019.00357/full  
+- Xataka. (2021). *Chip neuromórfico TrueNorth (IBM)*. Disponible en: https://www.xataka.com/componentes/truenorth-es-el-chip-de-ibm-que-busca-emular-el-cerebro-humano  
+- Xataka. (2022). *Chip neuromórfico Loihi 2 (Intel)*. Disponible en: https://www.xataka.com/investigacion/estas-armas-loihi-2-chip-neuromorfico-avanzado-intel-para-convencernos-que-esta-preparado-para-salir-laboratorio-conquistar-mundo-real  
+- Science & Industry Museum. (2023). *Chip Spinnaker*. Disponible en: https://blog.scienceandindustrymuseum.org.uk/spinnaker/  
+- BrainScales Project. (2022). *Chip BrainScales2*. Disponible en: https://electronicvisions.github.io/documentation-brainscales2/latest/brainscales2-demos/tutorial.html  
+- IEEE Spectrum. (2021). *Crossbar ReRAM para IA embebida*. Disponible en: https://spectrum.ieee.org/crossbar-pushes-reram-into-embedded-ai  
+- NLHPC. (2012). *Arquitectura heterogénea (APU)*. Disponible en: https://www.nlhpc.cl/wp-content/uploads/2012/09/3_APUs.pdf  
+- Vision Platform AI. (2023). *Edge computing diagram*. Disponible en: https://visionplatform.ai/es/computacion-en-el-borde-todo-lo-que-necesitas-saber-y-el-auge-de-la-inteligencia-artificial/  
