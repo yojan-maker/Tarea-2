@@ -374,7 +374,8 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
 
 La **computación biológica** utiliza sistemas y procesos de organismos vivos (ADN, ARN, proteínas, células) para **almacenar, procesar y transmitir información**. Su enfoque es aprovechar las propiedades moleculares y bioquímicas para resolver problemas de forma paralela y con densidad de información extraordinaria.
 
-👉 *Imagen B1 (Biológica): ADN como medio de almacenamiento y procesamiento.*
+
+<img src="https://github.com/user-attachments/assets/27a2deab-4867-4cb1-abf1-fa96ea7cb17b" width="600"> 
 
 ---
 
@@ -396,25 +397,31 @@ Un ordenador biológico no se compone de transistores y chips, sino de **molécu
 4. **Output (salida)**  
    - Puede ser una molécula sintetizada, un cambio estructural o una señal biológica detectable.  
 
-👉 *Imagen B2 (Biológica): Diagrama de bloques — codificación ADN → reacciones → resultado.*  
 
+<img src="https://github.com/user-attachments/assets/45ffe3b3-59e4-48d6-9f90-ffa6a24df81a" width="600"> 
+
+ > - (Arquitectura de un ordenador biológico, codificación de datos en ADN, procesamiento molecular y el almacenamiento masivo de información)
 ---
 
 ## Tipos de computación biológica
 
-1. **Computación basada en ADN**  
+1. **Computación basada en ADN**
+<img src="https://github.com/user-attachments/assets/b5440270-9037-4254-8a52-0709575cc92f" width="150"> 
+   
    - Pionera en los años 90 con Leonard Adleman.  
    - Utiliza reacciones de ADN para resolver problemas complejos, como el **problema del camino hamiltoniano**.  
-
+   
 2. **Computación en células vivas (Biocomputación sintética)**  
-   - Reprograma organismos mediante biología sintética para que actúen como **procesadores vivos**.  
-   - Ejemplo: bacterias que detectan contaminantes o generan respuestas programadas.  
+<img src="https://github.com/user-attachments/assets/146b4484-5a97-4e20-8f83-39eaa3563dd1" width="150"> 
 
-3. **Computación molecular híbrida**  
+   - Reprograma organismos mediante biología sintética para que actúen como **procesadores vivos**.  
+   - Ejemplo: bacterias que detectan contaminantes o generan respuestas programadas.
+     
+3. **Computación molecular híbrida**
+<img src="https://github.com/user-attachments/assets/77e881a9-e4d6-4257-b085-eab36ee60c1d" width="150"> 
+
    - Integra moléculas biológicas con sistemas electrónicos tradicionales.  
    - Promete dispositivos bioelectrónicos con mayor densidad de almacenamiento.  
-
-👉 *Imagen B3 (Biológica): Comparación — ADN vs. células vivas vs. híbridos.*  
 
 ---
 
@@ -446,14 +453,16 @@ Un ordenador biológico no se compone de transistores y chips, sino de **molécu
 - **Almacenamiento de datos:** uso de ADN como memoria de ultra-alta densidad.  
 - **Criptografía y seguridad:** codificación genética resistente a ataques tradicionales.  
 
-👉 *Imagen B4 (Biológica): ADN como memoria masiva de datos.*  
 
 ---
 # 4) 🔀 Computación Heterogénea
 
-La **computación heterogénea** integra **diferentes tipos de procesadores** dentro de un mismo sistema (CPU, GPU, FPGA, ASIC, TPU, e incluso QPU), de modo que cada uno se encarga de las tareas para las que está mejor optimizado. Su objetivo es **maximizar el rendimiento y la eficiencia energética**, superando las limitaciones de las arquitecturas homogéneas tradicionales.
+La **computación heterogénea** integra **diferentes tipos de procesadores** dentro de un mismo sistema (CPU, GPU, FPGA, ASIC, TPU, e incluso QPU), de modo que cada uno se encarga de las tareas para las que está mejor optimizado. 
+Su objetivo es **maximizar el rendimiento y la eficiencia energética**, superando las limitaciones de las arquitecturas homogéneas tradicionales.
 
-👉 *Imagen H1 (Heterogénea): Esquema CPU–GPU–FPGA trabajando de forma coordinada.*
+<img src="https://github.com/user-attachments/assets/25ca988e-edf1-4d73-a5e1-86d9eabab878" width="350"> 
+<img src="https://github.com/user-attachments/assets/0be5dfcb-1159-443f-af7e-8b92e8217c08" width="350"> 
+
 
 ---
 
@@ -464,7 +473,7 @@ La **computación heterogénea** integra **diferentes tipos de procesadores** de
 - **2010s:** consolidación de la **High-Performance Computing (HPC)** heterogénea con arquitecturas híbridas CPU–GPU.  
 - **Actualidad:** integración de múltiples aceleradores (GPU, TPU, FPGA, QPU) en sistemas de **exascale computing**, servidores en la nube e incluso dispositivos de borde.
 
-👉 *Imagen H2 (Heterogénea): Evolución histórica de sistemas heterogéneos.*
+
 
 ---
 
@@ -489,7 +498,9 @@ La **computación heterogénea** integra **diferentes tipos de procesadores** de
 6. **Interconexión de alto rendimiento**  
    - Buses, NoC (Network on Chip) y memorias compartidas/unificadas que permiten comunicación eficiente entre los distintos procesadores.  
 
-👉 *Imagen H3 (Heterogénea): Diagrama de bloques — CPU central, aceleradores especializados y red de interconexión.*
+<img src="https://github.com/user-attachments/assets/2086621c-ca50-40e6-b84e-ce72edb0a54e" width="550"> 
+
+ > - (Segunda generacion arquitectura heterogenea)
 
 ---
 
