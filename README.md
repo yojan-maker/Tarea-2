@@ -226,8 +226,9 @@ A continuación, se presentan algunas de las compuertas más importantes:
 | CNOT (NOT Controlada) | CNOT | Genera entrelazamiento. Aplica X al cúbit objetivo si el cúbit de control está en 1. |
 
 ---
+---
 
-# 🧠 Computación Neuromórfica
+# 2) 🧠 Computación Neuromórfica
 
 La **computación neuromórfica** diseña hardware y software inspirados en el **cerebro**: neuronas y sinapsis que intercambian **pulsos (spikes)** de manera **asíncrona** y **event-driven**. El objetivo es procesar percepción y control en **tiempo real** con **muy bajo consumo** energético, ejecutando **Redes Neuronales de Disparos** (*Spiking Neural Networks, SNN*).
 
@@ -326,7 +327,9 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
 - **Neurociencia computacional**: simulación de redes a gran escala con dinámica biológica.
 
 ---
-# 🧬 Computación Biológica
+---
+
+# 3) 🧬 Computación Biológica
 
 La **computación biológica** utiliza sistemas y procesos de organismos vivos (ADN, ARN, proteínas, células) para **almacenar, procesar y transmitir información**. Su enfoque es aprovechar las propiedades moleculares y bioquímicas para resolver problemas de forma paralela y con densidad de información extraordinaria.
 
@@ -405,7 +408,7 @@ Un ordenador biológico no se compone de transistores y chips, sino de **molécu
 👉 *Imagen B4 (Biológica): ADN como memoria masiva de datos.*  
 
 ---
-# 🔀 Computación Heterogénea
+# 4) 🔀 Computación Heterogénea
 
 La **computación heterogénea** integra **diferentes tipos de procesadores** dentro de un mismo sistema (CPU, GPU, FPGA, ASIC, TPU, e incluso QPU), de modo que cada uno se encarga de las tareas para las que está mejor optimizado. Su objetivo es **maximizar el rendimiento y la eficiencia energética**, superando las limitaciones de las arquitecturas homogéneas tradicionales.
 
@@ -471,5 +474,68 @@ La **computación heterogénea** integra **diferentes tipos de procesadores** de
 👉 *Imagen H4 (Heterogénea): Centros de datos con infraestructura heterogénea.*  
 
 ---
+---
 
+# 5) 🌐 Computación de Borde (Edge Computing)
+
+La **computación de borde** consiste en procesar datos **cerca de la fuente donde se generan** (sensores, cámaras, dispositivos IoT), en lugar de enviarlos a un centro de datos o la nube. Esto reduce la **latencia**, el **consumo de ancho de banda** y mejora la **privacidad**.  
+Es una arquitectura clave para aplicaciones en **tiempo real** como vehículos autónomos, industria 4.0 y ciudades inteligentes.
+
+👉 *Imagen E1 (Borde): Esquema nube vs. borde vs. dispositivo IoT.*
+
+---
+
+## Historia
+
+- **Década de 1990 – 2000:** surge el concepto de *Content Delivery Networks (CDN)*, acercando contenido a los usuarios para reducir latencia.  
+- **2010s:** con el auge del IoT y el 5G, el borde se convierte en un enfoque para procesar datos localmente.  
+- **Actualidad:** Edge Computing es un pilar de arquitecturas distribuidas, integrándose con **cloud computing**, **IA** y **computación heterogénea**.  
+
+👉 *Imagen E2 (Borde): Evolución — de la nube centralizada al borde distribuido.*
+
+---
+
+## Arquitectura de la computación de borde
+
+1. **Dispositivos finales (IoT, móviles, sensores)**  
+   - Generan datos de forma continua.  
+   - Algunos incluyen capacidad básica de cómputo.  
+
+2. **Nodos de borde (Edge Nodes/Gateways)**  
+   - Procesan y filtran información cerca de la fuente.  
+   - Pueden ejecutar modelos de IA y análisis en tiempo real.  
+
+3. **MEC (Multi-access Edge Computing)**  
+   - Estándar impulsado por 5G que habilita servicios de baja latencia en la red de acceso.  
+
+4. **Capa de orquestación y nube híbrida**  
+   - El procesamiento más pesado y almacenamiento masivo aún se realiza en la nube.  
+   - El borde actúa como **primer filtro** para datos críticos y en tiempo real.  
+
+👉 *Imagen E3 (Borde): Diagrama de arquitectura — Dispositivos → Edge Nodes → Nube.*
+
+---
+
+## Ventajas y desventajas
+
+| ✅ Ventajas | ⚠️ Desventajas |
+|---|---|
+| **Baja latencia**: procesamiento local inmediato. | **Costo de infraestructura**: requiere nodos distribuidos. |
+| **Menor tráfico de red**: se reduce la cantidad de datos enviados a la nube. | **Mantenimiento complejo**: más dispositivos que mantener y actualizar. |
+| **Privacidad y seguridad**: datos sensibles permanecen cerca de la fuente. | **Recursos limitados**: los nodos de borde tienen menos potencia que un datacenter. |
+| **Resiliencia**: operaciones locales continúan incluso con mala conexión a internet. | **Estandarización incompleta** en plataformas de edge. |
+
+---
+
+## Aplicaciones principales
+
+- **Vehículos autónomos**: decisiones inmediatas de frenado, navegación y seguridad.  
+- **Ciudades inteligentes**: gestión de tráfico, alumbrado, monitoreo ambiental.  
+- **Industria 4.0**: control de maquinaria, mantenimiento predictivo en tiempo real.  
+- **Salud digital**: monitoreo de pacientes con baja latencia y mayor privacidad.  
+- **Realidad aumentada/virtual (AR/VR)**: experiencias inmersivas con baja latencia gracias al 5G.  
+
+👉 *Imagen E4 (Borde): Casos de uso — vehículos, ciudades inteligentes, salud, industria.*  
+
+---
 
