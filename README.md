@@ -318,7 +318,8 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
    
 <img src="https://github.com/user-attachments/assets/a74cf1ff-ac4c-4391-82bb-5a7c29a54b6c" width="430"> 
 
-<img src="https://github.com/user-attachments/assets/bfb14ebc-2c52-4ad4-bd92-a6e5003a9167" width="300"> 
+<img src="https://github.com/user-attachments/assets/d4492353-6fe4-463b-a77c-a8757c2bf052" width="300"> 
+
 
 ---
 
@@ -341,7 +342,6 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
 4. **Basada en FPGA/Many-core** (SpiNNaker, prototipos): gran flexibilidad para simulación a gran escala y educación.  
 5. **Neuromórfica fotónica** (emergente): usa interferómetros/laser para spikes; promete muy alta velocidad con baja latencia.
 
-👉 *Imagen N5 (Neuromórfica): Tipología — digital, analógica/mixta, en-memoria, FPGA, fotónica.*
 
 ---
 
@@ -353,7 +353,10 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
 - **Capa de aprendizaje**: reglas locales (STDP) u orquestación externa para *off-chip training*.  
 - **Interfaces**: PCIe/Ethernet/UART, control por CPU anfitrión, APIs (Lava/PyNN).  
 
-👉 *Imagen N6 (Neuromórfica): Diagrama de bloques de un SoC neuromórfico completo.*
+
+<img src="https://github.com/user-attachments/assets/4c9a77a8-8396-4fca-9794-d992973fd3c5" width="600"> 
+
+ > - (Diagrama de bloques de un SoC neuromórfico completo)
 
 ---
 
