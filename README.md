@@ -326,5 +326,150 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
 - **Neurociencia computacional**: simulación de redes a gran escala con dinámica biológica.
 
 ---
+# 🧬 Computación Biológica
+
+La **computación biológica** utiliza sistemas y procesos de organismos vivos (ADN, ARN, proteínas, células) para **almacenar, procesar y transmitir información**. Su enfoque es aprovechar las propiedades moleculares y bioquímicas para resolver problemas de forma paralela y con densidad de información extraordinaria.
+
+👉 *Imagen B1 (Biológica): ADN como medio de almacenamiento y procesamiento.*
+
+---
+
+## Arquitectura de un ordenador biológico
+
+Un ordenador biológico no se compone de transistores y chips, sino de **moléculas y reacciones biológicas** que actúan como elementos lógicos y de memoria.
+
+1. **Capa de codificación genética**  
+   - La información se representa mediante **secuencias de bases nitrogenadas** (A, T, C, G).  
+   - Estas secuencias pueden codificar datos binarios o instrucciones.  
+
+2. **Procesamiento molecular**  
+   - En lugar de puertas lógicas electrónicas, se utilizan **reacciones químicas** como hibridación de ADN, plegamiento de ARN o unión proteína-ligando.  
+   - Los resultados de estas reacciones definen la salida de la operación.  
+
+3. **Memoria biológica**  
+   - El ADN ofrece una **capacidad de almacenamiento masiva**: un gramo puede contener hasta **215 petabytes** de información.  
+
+4. **Output (salida)**  
+   - Puede ser una molécula sintetizada, un cambio estructural o una señal biológica detectable.  
+
+👉 *Imagen B2 (Biológica): Diagrama de bloques — codificación ADN → reacciones → resultado.*  
+
+---
+
+## Tipos de computación biológica
+
+1. **Computación basada en ADN**  
+   - Pionera en los años 90 con Leonard Adleman.  
+   - Utiliza reacciones de ADN para resolver problemas complejos, como el **problema del camino hamiltoniano**.  
+
+2. **Computación en células vivas (Biocomputación sintética)**  
+   - Reprograma organismos mediante biología sintética para que actúen como **procesadores vivos**.  
+   - Ejemplo: bacterias que detectan contaminantes o generan respuestas programadas.  
+
+3. **Computación molecular híbrida**  
+   - Integra moléculas biológicas con sistemas electrónicos tradicionales.  
+   - Promete dispositivos bioelectrónicos con mayor densidad de almacenamiento.  
+
+👉 *Imagen B3 (Biológica): Comparación — ADN vs. células vivas vs. híbridos.*  
+
+---
+
+## Principales hitos históricos
+
+- **1994:** Leonard Adleman resuelve un problema matemático (camino hamiltoniano) utilizando ADN como soporte de cálculo.  
+- **Década de 2000:** avances en almacenamiento de información en ADN, con demostraciones de codificación de imágenes, textos y videos.  
+- **2012:** Harvard almacena un libro de 53.000 palabras en ADN.  
+- **2017:** investigadores codifican un sistema operativo completo y una película en ADN.  
+- **Actualidad:** desarrollo de **biocomputadoras celulares** capaces de tomar decisiones en organismos vivos.  
+
+---
+
+## Ventajas y desventajas
+
+| ✅ Ventajas | ⚠️ Desventajas |
+|---|---|
+| **Densidad de almacenamiento altísima** (millones de veces mayor que el silicio). | **Lentitud** en comparación con la computación clásica. |
+| **Procesamiento paralelo masivo** gracias a reacciones moleculares. | **Errores bioquímicos** durante síntesis y lectura de ADN. |
+| **Biocompatibilidad**: ideal para aplicaciones médicas y biotecnológicas. | **Costos altos** en síntesis y secuenciación de ADN. |
+| **Durabilidad**: el ADN puede conservar información durante miles de años. | **Dificultad de escalabilidad práctica** para uso masivo. |
+
+---
+
+## Aplicaciones principales
+
+- **Medicina personalizada:** diagnósticos y tratamientos basados en biocomputadoras celulares.  
+- **Biotecnología:** organismos programados para detectar o responder a estímulos ambientales.  
+- **Almacenamiento de datos:** uso de ADN como memoria de ultra-alta densidad.  
+- **Criptografía y seguridad:** codificación genética resistente a ataques tradicionales.  
+
+👉 *Imagen B4 (Biológica): ADN como memoria masiva de datos.*  
+
+---
+# 🔀 Computación Heterogénea
+
+La **computación heterogénea** integra **diferentes tipos de procesadores** dentro de un mismo sistema (CPU, GPU, FPGA, ASIC, TPU, e incluso QPU), de modo que cada uno se encarga de las tareas para las que está mejor optimizado. Su objetivo es **maximizar el rendimiento y la eficiencia energética**, superando las limitaciones de las arquitecturas homogéneas tradicionales.
+
+👉 *Imagen H1 (Heterogénea): Esquema CPU–GPU–FPGA trabajando de forma coordinada.*
+
+---
+
+## Breve historia
+
+- **Década de 1990:** primeras combinaciones de CPU con coprocesadores gráficos para acelerar operaciones matemáticas.  
+- **2000s:** auge de las GPU programables y su integración en supercomputadores.  
+- **2010s:** consolidación de la **High-Performance Computing (HPC)** heterogénea con arquitecturas híbridas CPU–GPU.  
+- **Actualidad:** integración de múltiples aceleradores (GPU, TPU, FPGA, QPU) en sistemas de **exascale computing**, servidores en la nube e incluso dispositivos de borde.
+
+👉 *Imagen H2 (Heterogénea): Evolución histórica de sistemas heterogéneos.*
+
+---
+
+## Arquitectura de un sistema heterogéneo
+
+1. **CPU (Central Processing Unit)**  
+   - Generalista, controla el flujo y tareas de coordinación.  
+   - Maneja tareas secuenciales y de control lógico.  
+
+2. **GPU (Graphics Processing Unit)**  
+   - Masivamente paralela, ideal para cargas de trabajo en IA, simulaciones y procesamiento de gráficos.  
+
+3. **FPGA (Field-Programmable Gate Array)**  
+   - Reconfigurable, permite implementar arquitecturas personalizadas para acelerar algoritmos específicos.  
+
+4. **TPU (Tensor Processing Unit)**  
+   - Diseñada por Google para aprendizaje automático y redes neuronales profundas.  
+
+5. **QPU (Quantum Processing Unit)** *(emergente)*  
+   - Procesadores cuánticos integrados en ecosistemas híbridos (ejemplo: IBM Q Experience).  
+
+6. **Interconexión de alto rendimiento**  
+   - Buses, NoC (Network on Chip) y memorias compartidas/unificadas que permiten comunicación eficiente entre los distintos procesadores.  
+
+👉 *Imagen H3 (Heterogénea): Diagrama de bloques — CPU central, aceleradores especializados y red de interconexión.*
+
+---
+
+## Ventajas y desventajas
+
+| ✅ Ventajas | ⚠️ Desventajas |
+|---|---|
+| **Alto rendimiento**: cada procesador ejecuta la tarea para la que fue diseñado. | **Complejidad de programación**: requiere librerías, compiladores y APIs específicas. |
+| **Eficiencia energética**: menor consumo frente a CPUs puras para cargas intensivas. | **Costos de desarrollo elevados** para hardware y software especializado. |
+| **Flexibilidad**: integración de múltiples aceleradores según la aplicación. | **Problemas de compatibilidad** entre diferentes arquitecturas y estándares. |
+| **Escalabilidad**: fundamental en supercomputación y centros de datos modernos. | **Curva de aprendizaje** pronunciada para desarrolladores. |
+
+---
+
+## Aplicaciones principales
+
+- **Inteligencia Artificial y Machine Learning** (entrenamiento y despliegue de modelos a gran escala).  
+- **Big Data y análisis masivo de información**.  
+- **Simulaciones científicas**: clima, biología molecular, astrofísica.  
+- **Industria del entretenimiento**: renderizado gráfico y efectos visuales.  
+- **Supercomputación (HPC)**: sistemas híbridos CPU–GPU–FPGA que lideran el ranking TOP500.  
+
+👉 *Imagen H4 (Heterogénea): Centros de datos con infraestructura heterogénea.*  
+
+---
 
 
