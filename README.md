@@ -616,6 +616,19 @@ el **consumo de ancho de banda** y mejora la **privacidad**. Es una arquitectura
 - **Computación de borde cuántica** *(investigación emergente)*: uso de QPUs distribuidas para resolver problemas críticos en tiempo real.  
 - **Mayor autosuficiencia**: nodos de borde capaces de operar de forma autónoma por largos períodos.
 
-
 ---
+
+# 📌 Conclusión General  
+
+La exploración de estas arquitecturas emergentes muestra que la computación está viviendo una **transformación profunda y multidimensional**. Cada paradigma aborda limitaciones distintas de la computación clásica y ofrece soluciones específicas para los desafíos del presente y del futuro:  
+
+- La **computación cuántica** promete resolver problemas intratables con poder exponencial, especialmente en **criptografía, simulación de materiales y optimización**.  
+- La **computación neuromórfica** imita al cerebro humano, logrando **eficiencia energética y procesamiento en tiempo real**, ideal para robótica, IoT e inteligencia artificial en el borde.  
+- Los **ordenadores biológicos** abren un horizonte disruptivo al aprovechar moléculas vivas como medio de cómputo, con aplicaciones en **biotecnología, medicina y almacenamiento masivo de datos**.  
+- La **computación heterogénea** integra múltiples tipos de procesadores (CPU, GPU, FPGA, TPU, QPU), potenciando la **eficiencia y el rendimiento** en entornos de alto desempeño.  
+- La **computación de borde (Edge)** acerca la capacidad de procesamiento a la fuente de los datos, habilitando aplicaciones críticas en **vehículos autónomos, ciudades inteligentes y realidad aumentada/virtual**.  
+
+En conjunto, estas arquitecturas no son **competencia directa**, sino **complementarias**. El futuro de la computación se perfila como un **ecosistema híbrido y convergente**, donde los centros de datos, la nube, el borde y los dispositivos especializados colaborarán para construir soluciones más rápidas, eficientes y adaptadas a cada contexto.  
+
+ En conclusión, la computación emergente no solo redefine la tecnología, sino que también impulsa un **nuevo paradigma científico, industrial y social**, capaz de transformar radicalmente la manera en que interactuamos con la información en el siglo XXI.  
 
