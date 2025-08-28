@@ -43,6 +43,8 @@ Con apenas ~30 qubits se alcanza un espacio de estados comparable a un supercomp
 
 ![Image](https://github.com/user-attachments/assets/e17b4efa-c094-47aa-9d93-9f676a4c85ec)
 
+> - Qbit vs Bit
+
 📌 Principios físicos clave
 
 - ***Superposición:*** un qubit puede estar en combinación lineal de |0⟩ y |1⟩; los algoritmos explotan ese paralelismo para evaluar funciones “en todos los puntos simultáneamente” antes de medir. 
@@ -113,7 +115,9 @@ Los sistemas ópticos y de iones necesitan aislamiento de vibraciones, ruido ele
 
 La complejidad de esta infraestructura es uno de los principales obstáculos para la masificación de las computadoras cuánticas.
 
-👉👉👉 Imagen 3: Sistema de criogenia y control cuántico
+![Image](https://github.com/user-attachments/assets/b337783b-85d8-4f81-b5d9-416e93c43b26)
+
+> - Sistema de criogenia y control cuántico
 
 ### 🧠 La Arquitectura Lógica: El Lenguaje de la Computación Cuántica
 ---
@@ -128,7 +132,9 @@ Sobre los cúbits físicos se construye la **capa lógica**, que define cómo se
   - **Grover (1996):** búsqueda en bases de datos no estructuradas, con aceleración cuadrática.  
   - **QFT (Quantum Fourier Transform):** pieza clave en varios algoritmos.  
 
-👉👉👉 *Imagen 5: Ejemplo de circuito cuántico con puertas H y CNOT*  
+<img width="633" height="381" alt="Image" src="https://github.com/user-attachments/assets/d868ed5b-cac7-47c6-a9dc-e78617446e1f" />
+
+> - Ejemplo de circuito cuántico con puertas H y CNOT 
 
 ### 5. Corrección de errores y cúbits lógicos
 
@@ -141,10 +147,18 @@ Los cúbits son inestables y altamente sensibles al entorno. Para mantener la co
 
 - **Redundancia:** un cúbit lógico requiere decenas o cientos de cúbits físicos.  
 - **Ejemplos:**  
-  - **Código de Shor (1995):** protege un cúbit lógico usando 9 cúbits físicos.  
-  - **Código de superficie (Surface Code):** más usado hoy por su escalabilidad en superconductores.  
+  - **Código de Shor (1995):** protege un cúbit lógico usando 9 cúbits físicos.
+    
+![Image](https://github.com/user-attachments/assets/9b7c51c3-a45c-4155-b73b-d47f0b115d43)
 
-👉👉👉 *Imagen 6: Corrección de errores cuánticos mediante cúbits ancilla*  
+ > - (Codigo de Shor)
+    
+  - **Código de superficie (Surface Code):** más usado hoy por su escalabilidad en superconductores.
+  
+ <img width="850" height="293" alt="Image" src="https://github.com/user-attachments/assets/82be1c94-90cf-4494-8693-cc961b8829bd" />
+ 
+ > - (Codigo de superficie)
+
 
 ## 1.3)📜 Breve Historia de la Computación Cuántica
 La computación cuántica se perfila como una de las revoluciones tecnológicas más significativas, prometiendo resolver problemas que hoy son intratables para las supercomputadoras más potentes. 
@@ -224,6 +238,10 @@ A continuación, se presentan algunas de las compuertas más importantes:
 | Pauli-Z       | Z           | Aplica un cambio de fase. |
 | Hadamard      | H           | Crea superposición uniforme a partir de un estado base. |
 | CNOT (NOT Controlada) | CNOT | Genera entrelazamiento. Aplica X al cúbit objetivo si el cúbit de control está en 1. |
+
+![Image](https://github.com/user-attachments/assets/f89d2bbd-f96d-4f74-a2d7-d062df5571de)
+
+ > - (Compuertas comunes)
 
 ---
 ---
