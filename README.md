@@ -41,7 +41,7 @@ se crean nuevas compuertas lógicas que permiten analizar problemas con diferent
 
 Con apenas ~30 qubits se alcanza un espacio de estados comparable a un supercomputador de 10 teraflops, aunque obtener la respuesta correcta exige diseñar algoritmos que controlen la probabilidad de medida. 
 
-![Image](https://github.com/user-attachments/assets/e17b4efa-c094-47aa-9d93-9f676a4c85ec)
+<img width="743" height="408" alt="Image" src="https://github.com/user-attachments/assets/11af99fc-c6ca-474d-a57d-8075b0b844e7" />
 
 > - Qbit vs Bit
 
@@ -250,7 +250,9 @@ A continuación, se presentan algunas de las compuertas más importantes:
 
 La **computación neuromórfica** diseña hardware y software inspirados en el **cerebro**: neuronas y sinapsis que intercambian **pulsos (spikes)** de manera **asíncrona** y **event-driven**. El objetivo es procesar percepción y control en **tiempo real** con **muy bajo consumo** energético, ejecutando **Redes Neuronales de Disparos** (*Spiking Neural Networks, SNN*).
 
-👉 *Imagen N1 (Neuromórfica): Visión general — neuronas, sinapsis y tráfico de spikes.*
+<img width="850" height="464" alt="Image" src="https://github.com/user-attachments/assets/b6018afd-ebbe-4b25-b940-60be5cc8bb69" />
+
+ > - (Redes neuronales de disparos)
 
 ---
 
@@ -275,8 +277,15 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
    - *On-chip*: reglas locales (STDP, homeostasis).  
    - *Off-chip*: se entrena con métodos clásicos y se **mapea** al chip (cuantización/digitalización de pesos y tiempos).
 
-👉 *Imagen N2 (Neuromórfica): Flujo de eventos AER y routers en chip.*  
-👉 *Imagen N3 (Neuromórfica): Neurona LIF y sinapsis con STDP.*
+![Image](https://github.com/user-attachments/assets/0046994c-9aea-4bf6-8587-222dcfa45566)
+
+ > - (Neuronas LIF)
+
+
+![Image](https://github.com/user-attachments/assets/da18a75d-b596-4621-8d25-2c6bddbd1334)
+
+ > - (STDP, o «plasticidad dependiente del tiempo de espiga» (Spike-Timing-Dependent Plasticity),
+>  - Es un mecanismo biológico y un modelo de aprendizaje que modifica la fuerza de las conexiones sinápticas entre neuronas según el momento preciso en que los potenciales(o espigas) de las neuronas pre- y postsinápticas ocurren de acción)
 
 ---
 
