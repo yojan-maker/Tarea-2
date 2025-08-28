@@ -424,6 +424,20 @@ Un ordenador biológico no se compone de transistores y chips, sino de **molécu
    - Promete dispositivos bioelectrónicos con mayor densidad de almacenamiento.  
 
 ---
+El hito más relevante y un caso de estudio ejemplar en este campo es el CL1 de la empresa australiana Cortical Labs, presentado como la primera computadora biológica comercial del mundo. Su arquitectura es una fusión de elementos biológicos y electrónicos, 
+representando un avance significativo en la intersección de la biología y la tecnología.   
+
+La estructura del CL1 se basa en una arquitectura híbrida que integra los siguientes componentes :   
+
+- Componentes Biológicos: Utiliza neuronas reales cultivadas a partir de células madre humanas que funcionan como las unidades de procesamiento.   
+
+- Interfaz Híbrida: Un chip de silicio actúa como la interfaz crucial, enviando y recibiendo impulsos eléctricos para establecer una comunicación bidireccional entre las células vivas y el hardware.   
+
+- Sistema de Soporte Vital: Para mantener vivas y funcionales las neuronas, el sistema está alojado en una unidad de soporte vital que proporciona un entorno controlado, suministrando una solución rica en nutrientes y
+ manteniendo una temperatura y pH óptimos durante al menos seis meses.   
+
+- Sistema Operativo biOS: Un software especializado, desarrollado por Cortical Labs, interactúa con las neuronas vivas. Este sistema operativo permite a los usuarios ejecutar código traduciendo un lenguaje de muy alto nivel en una secuencia de estímulos eléctricos,
+ que a su vez moldea el comportamiento biológico de las neuronas para ajustarse a una especificación dada.
 
 ## Principales hitos históricos
 
