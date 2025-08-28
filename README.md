@@ -149,7 +149,7 @@ Los cúbits son inestables y altamente sensibles al entorno. Para mantener la co
 - **Ejemplos:**  
   - **Código de Shor (1995):** protege un cúbit lógico usando 9 cúbits físicos.
     
-![Image](https://github.com/user-attachments/assets/9b7c51c3-a45c-4155-b73b-d47f0b115d43)
+<img src="https://github.com/user-attachments/assets/9b7c51c3-a45c-4155-b73b-d47f0b115d43" width="800"> 
 
  > - (Codigo de Shor)
     
@@ -250,7 +250,9 @@ A continuación, se presentan algunas de las compuertas más importantes:
 
 La **computación neuromórfica** diseña hardware y software inspirados en el **cerebro**: neuronas y sinapsis que intercambian **pulsos (spikes)** de manera **asíncrona** y **event-driven**. El objetivo es procesar percepción y control en **tiempo real** con **muy bajo consumo** energético, ejecutando **Redes Neuronales de Disparos** (*Spiking Neural Networks, SNN*).
 
-<img width="850" height="464" alt="Image" src="https://github.com/user-attachments/assets/b6018afd-ebbe-4b25-b940-60be5cc8bb69" />
+
+<img src="https://github.com/user-attachments/assets/b6018afd-ebbe-4b25-b940-60be5cc8bb69" width="700"> 
+
 
  > - (Redes neuronales de disparos)
 
@@ -307,7 +309,16 @@ La **computación neuromórfica** diseña hardware y software inspirados en el *
 | **BrainScaleS (Heidelberg)** | Analógico/mixed-signal acelerado en tiempo | Aceleración ×10³ del tiempo biológico | Muy rápido para dinámica neuronal. |
 | **Crossbars memristivos** | Analógico en-memoria | Alta densidad sináptica | Variabilidad del dispositivo es un reto. |
 
-👉 *Imagen N4 (Neuromórfica): Ejemplos de chips (TrueNorth, Loihi, SpiNNaker, BrainScaleS).*
+
+<img src="https://github.com/user-attachments/assets/64d65973-57d3-4f33-bca1-3f3593b88b63" width="300"> 
+       
+<img src="https://github.com/user-attachments/assets/2c828f75-f445-4650-aa60-8f4e52701fc6" width="430">
+
+<img src="https://github.com/user-attachments/assets/1b4c428b-b336-4256-a158-90431136e48b" width="300">
+   
+<img src="https://github.com/user-attachments/assets/a74cf1ff-ac4c-4391-82bb-5a7c29a54b6c" width="430"> 
+
+<img src="https://github.com/user-attachments/assets/bfb14ebc-2c52-4ad4-bd92-a6e5003a9167" width="300"> 
 
 ---
 
