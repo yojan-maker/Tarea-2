@@ -523,17 +523,16 @@ Su objetivo es **maximizar el rendimiento y la eficiencia energética**, superan
 - **Industria del entretenimiento**: renderizado gráfico y efectos visuales.  
 - **Supercomputación (HPC)**: sistemas híbridos CPU–GPU–FPGA que lideran el ranking TOP500.  
 
-👉 *Imagen H4 (Heterogénea): Centros de datos con infraestructura heterogénea.*  
 
 ---
 ---
 
 # 5) 🌐 Computación de Borde (Edge Computing)
 
-La **computación de borde** consiste en procesar datos **cerca de la fuente donde se generan** (sensores, cámaras, dispositivos IoT), en lugar de enviarlos a un centro de datos o la nube. Esto reduce la **latencia**, el **consumo de ancho de banda** y mejora la **privacidad**.  
-Es una arquitectura clave para aplicaciones en **tiempo real** como vehículos autónomos, industria 4.0 y ciudades inteligentes.
+La **computación de borde** consiste en procesar datos **cerca de la fuente donde se generan** (sensores, cámaras, dispositivos IoT), en lugar de enviarlos a un centro de datos o la nube. Esto reduce la **latencia**, 
+el **consumo de ancho de banda** y mejora la **privacidad**. Es una arquitectura clave para aplicaciones en **tiempo real** como vehículos autónomos, industria 4.0 y ciudades inteligentes.
 
-👉 *Imagen E1 (Borde): Esquema nube vs. borde vs. dispositivo IoT.*
+<img src="https://github.com/user-attachments/assets/ac6e650d-da8b-4959-b55d-6ef295a6cb6d" width="550"> 
 
 ---
 
@@ -542,8 +541,6 @@ Es una arquitectura clave para aplicaciones en **tiempo real** como vehículos a
 - **Década de 1990 – 2000:** surge el concepto de *Content Delivery Networks (CDN)*, acercando contenido a los usuarios para reducir latencia.  
 - **2010s:** con el auge del IoT y el 5G, el borde se convierte en un enfoque para procesar datos localmente.  
 - **Actualidad:** Edge Computing es un pilar de arquitecturas distribuidas, integrándose con **cloud computing**, **IA** y **computación heterogénea**.  
-
-👉 *Imagen E2 (Borde): Evolución — de la nube centralizada al borde distribuido.*
 
 ---
 
@@ -587,7 +584,8 @@ Es una arquitectura clave para aplicaciones en **tiempo real** como vehículos a
 - **Salud digital**: monitoreo de pacientes con baja latencia y mayor privacidad.  
 - **Realidad aumentada/virtual (AR/VR)**: experiencias inmersivas con baja latencia gracias al 5G.  
 
-👉 *Imagen E4 (Borde): Casos de uso — vehículos, ciudades inteligentes, salud, industria.*  
+<img src="https://github.com/user-attachments/assets/981b9356-9b81-4a96-801e-b96f163ae0a2" width="550"> 
+
 
 ---
 
