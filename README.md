@@ -225,4 +225,106 @@ A continuación, se presentan algunas de las compuertas más importantes:
 | Hadamard      | H           | Crea superposición uniforme a partir de un estado base. |
 | CNOT (NOT Controlada) | CNOT | Genera entrelazamiento. Aplica X al cúbit objetivo si el cúbit de control está en 1. |
 
+---
+
+# 🧠 Computación Neuromórfica
+
+La **computación neuromórfica** diseña hardware y software inspirados en el **cerebro**: neuronas y sinapsis que intercambian **pulsos (spikes)** de manera **asíncrona** y **event-driven**. El objetivo es procesar percepción y control en **tiempo real** con **muy bajo consumo** energético, ejecutando **Redes Neuronales de Disparos** (*Spiking Neural Networks, SNN*).
+
+👉 *Imagen N1 (Neuromórfica): Visión general — neuronas, sinapsis y tráfico de spikes.*
+
+---
+
+## ¿Cómo funciona? (Arquitectura y principios)
+
+1. **Modelo de neurona y sinapsis**  
+   - Neuronas tipo *Integrate-and-Fire (LIF)* acumulan corriente sináptica; cuando superan un umbral, **emiten un spike**.  
+   - Sinapsis ponderan los spikes con **pesos** y **delays**; algunas admiten **plasticidad local** (p.ej., **STDP**).
+
+2. **Codificación por eventos**  
+   - En lugar de muestrear todo el tiempo, las neuronas **solo se activan cuando hay información**.  
+   - Los spikes viajan como **direcciones** (no como valores analógicos) mediante **AER – Address-Event Representation**.
+
+3. **Paralelismo masivo y asíncrono**  
+   - Miles/millones de neuronas operan en paralelo, **sin reloj global** (o con relojes locales).  
+   - La comunicación usa redes en chip (**NoC**) o routers jerárquicos especializados.
+
+4. **Memoria “cerca del cómputo”**  
+   - Los **pesos sinápticos** residen junto a las neuronas (SRAM, RRAM, PCM…), reduciendo movimiento de datos y energía.
+
+5. **Aprendizaje**  
+   - *On-chip*: reglas locales (STDP, homeostasis).  
+   - *Off-chip*: se entrena con métodos clásicos y se **mapea** al chip (cuantización/digitalización de pesos y tiempos).
+
+👉 *Imagen N2 (Neuromórfica): Flujo de eventos AER y routers en chip.*  
+👉 *Imagen N3 (Neuromórfica): Neurona LIF y sinapsis con STDP.*
+
+---
+
+## Componentes de hardware (¿qué se usa?)
+
+- **Núcleos neuromórficos**: bancos de neuronas y sinapsis (digitales, analógicos o mixtos).  
+- **Memoria sináptica local**: SRAM, **memristores/RRAM**, **PCM**, a veces *crossbars* para cómputo en-memoria.  
+- **Red de interconexión**: routers AER / NoC para enrutar spikes.  
+- **SoC de soporte**: microcontrolador, temporizadores, I/O sensorial (cámaras dinámicas, micrófonos), conversores si son mixtos.  
+- **Software**: SDK/compiladores (**Lava**, **NxSDK**, **PyNN**), librerías de mapeo y herramientas de conversión ANN→SNN.
+
+### Hardware representativo
+
+| Plataforma | Tipo de implementación | Escala/Enfoque | Notas |
+|---|---|---|---|
+| **IBM TrueNorth** | Digital, evento-dirigido | 1M neuronas / 256M sinapsis (a gran escala) | Ultra-bajo consumo; programación con *corelets*. |
+| **Intel Loihi / Loihi 2** | Digital, con plasticidad on-chip | Núcleos programables con aprendizaje local | SDK **Lava**; soporte para constraints temporales. |
+| **SpiNNaker (U. Manchester)** | Many-core ARM (simulación de SNN) | Hasta ~1M núcleos en clúster | Flexibilidad alta; útil para neurociencia. |
+| **BrainScaleS (Heidelberg)** | Analógico/mixed-signal acelerado en tiempo | Aceleración ×10³ del tiempo biológico | Muy rápido para dinámica neuronal. |
+| **Crossbars memristivos** | Analógico en-memoria | Alta densidad sináptica | Variabilidad del dispositivo es un reto. |
+
+👉 *Imagen N4 (Neuromórfica): Ejemplos de chips (TrueNorth, Loihi, SpiNNaker, BrainScaleS).*
+
+---
+
+## Ventajas y desventajas
+
+| ✅ Ventajas | ⚠️ Desventajas |
+|---|---|
+| **Eficiencia energética** (pJ por evento) gracias al procesamiento por eventos y memoria cercana. | **Programación compleja**: las SNN y su tooling aún son menos maduros que ANN/GPU. |
+| **Baja latencia** y **tiempo real** para percepción/actuación (robótica, edge). | **Precisión limitada** en analógico/mixto; **variabilidad** de dispositivos no-volátiles. |
+| **Escalabilidad biológicamente plausible** con paralelismo masivo asíncrono. | **Portabilidad del modelo** entre chips no estandarizada (diferencias de hardware). |
+| **Aprendizaje local** (STDP, reglas Hebbianas) y operación continua *on-line*. | **Herramientas y ecosistema** aún en consolidación; conversión ANN→SNN no siempre óptima. |
+
+---
+
+## Tipos de computación neuromórfica
+
+1. **Digital evento-dirigida** (TrueNorth, Loihi): determinista, reprogramable, buena para edge e investigación aplicada.  
+2. **Analógica / Mixta** (BrainScaleS, ASICs con ADC/DAC): dinámica natural muy rápida y eficiente, pero más sensible al ruido.  
+3. **En-memoria con dispositivos no volátiles** (RRAM/PCM/memristores en *crossbars*): alta densidad sináptica; retos de variabilidad y endurance.  
+4. **Basada en FPGA/Many-core** (SpiNNaker, prototipos): gran flexibilidad para simulación a gran escala y educación.  
+5. **Neuromórfica fotónica** (emergente): usa interferómetros/laser para spikes; promete muy alta velocidad con baja latencia.
+
+👉 *Imagen N5 (Neuromórfica): Tipología — digital, analógica/mixta, en-memoria, FPGA, fotónica.*
+
+---
+
+## Arquitectura de un computador neuromórfico (resumen estructural)
+
+- **Capa sensorial**: cámaras de visión por eventos (DVS), micrófonos, sensores IMU.  
+- **Capa de cómputo**: núcleos con neuronas LIF y sinapsis (pesos, delays, plasticidad opcional).  
+- **Red en chip**: routers AER jerárquicos que garantizan baja latencia y QoS de spikes.  
+- **Capa de aprendizaje**: reglas locales (STDP) u orquestación externa para *off-chip training*.  
+- **Interfaces**: PCIe/Ethernet/UART, control por CPU anfitrión, APIs (Lava/PyNN).  
+
+👉 *Imagen N6 (Neuromórfica): Diagrama de bloques de un SoC neuromórfico completo.*
+
+---
+
+## Casos de uso típicos
+
+- **Percepción en tiempo real**: visión por eventos, seguimiento de objetos, detección de gestos.  
+- **Robótica y control**: navegación, SLAM neuromórfico, control motor reactivo.  
+- **IoT y Edge AI**: analítica local con ultra-bajo consumo y alta privacidad.  
+- **Neurociencia computacional**: simulación de redes a gran escala con dinámica biológica.
+
+---
+
 
